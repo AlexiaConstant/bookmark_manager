@@ -14,6 +14,10 @@ client->user:"displays a list of bookmarks"
 
 To view bookmarks, navigate to `localhost:3000/bookmarks`.
 
+
+As a user I would like to store bookmark data for a later date
+I want to add a bookmark to Bookmark Manager
+
 ### To set up the database
 
 Connect to `psql` and create the `bookmark_manager` database:
