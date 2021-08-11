@@ -4,8 +4,9 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'capybara'
+gem 'capybara', group: :test
+gem 'pg'
 gem 'sinatra'
-gem 'rspec'
+gem 'rspec', group: :test
 gem 'sinatra-contrib'
 
